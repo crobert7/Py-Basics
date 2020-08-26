@@ -40,3 +40,10 @@ print(first, second)
 print(first, second, third)
 print(first, second, third, sep='-')
 print(first, second, third, sep='-', end='.')
+
+print('Curso', 'de', 'fundamentos', 'en', sep='***', end='...')
+print('Python')
+
+print('Me gusta el \'bacacho\'')
+print('I\'m Monty Python')
+print("I'm Captain America")

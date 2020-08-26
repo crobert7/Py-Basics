@@ -14,7 +14,7 @@ print('Quotient: ' + str(quotient))
 print('Modulus: ' + str(modulus)) 
 print('Exponent: ' + str(exponent)) 
 
-# Python follow PEMDAS acronym, which indicates the order in which the operations hould be perfomed
+# Python follow PEMDAS acronym, which indicates the order in which the operations should be perfomed
 # P arenthesis: Resolve operations between parenthesis first
 # E xponent: Resolve exponents
 # M ultiplication: Perform multiplications from left ot fight

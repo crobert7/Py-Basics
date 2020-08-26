@@ -23,3 +23,11 @@ x = 7
 print(type(x))
 x = True 
 print(type(x))
+print(9 % 6 % 2)
+print()
+print(1//2 * 3)
+
+a = input()
+b = int(input())
+
+print(a * b)
