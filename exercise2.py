@@ -31,6 +31,10 @@
 # print(3 >= 4)
 # print(3 <= 4)
 
+ovejasN = 4
+ovejasB = 2
+print(ovejasN == (2 * ovejasB))
+
 first_number = 5
 second_number = 0
 true_value = True

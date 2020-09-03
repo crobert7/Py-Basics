@@ -31,7 +31,7 @@ print(my_list)
 
 # Create a slice
 food = ['pizza', 'burger', 'tacos', 'pasta', 'bread', 'hot-dog', 'jelly']
-print('\nPrint a SLICE, starting at index 2 and excluding index5')
+print('\nPrint a SLICE, starting at index 2 and excluding index 5')
 print(food[2:5])
 print(type(food[2:5]))
 
@@ -43,6 +43,10 @@ print(food[4:])
 
 print('\nPrint a slice, from the 4th from the end up until the last item:')
 print(food[-4:-1])
+
+print('\nPrint a copy of the list food')
+copy_food = food[:]
+print(f'{copy_food}\n')
 
 # Combining new list with an existing list
 coolors = ['cyan', 'gray', 'magenta', 'blue', 'green', 'orange', 'purple']
