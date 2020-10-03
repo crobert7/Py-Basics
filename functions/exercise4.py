@@ -13,3 +13,8 @@ def some_function():
 print(value)
 some_function
 print(value)
+
+def f(par2, par1):
+    return par2 + par1
+
+# print(f(par2 = 1, 5))

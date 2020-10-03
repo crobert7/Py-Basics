@@ -39,3 +39,10 @@ y = int(y)
 
 mult = x * y 
 print(f'{x} times {y}: {mult}')
+
+
+z = 2
+y = 1
+
+x = y < z or z > y and y > z or z < y
+print(x)

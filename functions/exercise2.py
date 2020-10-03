@@ -1,10 +1,10 @@
-def fun(x):
-    x += 1
-    return x
+# def fun(x):
+#     x += 1
+#     return x
 
-x = 2
-x = fun(x + 1)
-print(x)
+# x = 2
+# x = fun(x + 1)
+# print(x)
 
 # dic = { }
 # ls = ['a', 'b', 'c','d']
@@ -40,12 +40,12 @@ print(x)
 # tup = tup[0]
 # print(tup)
 
-ls = [1, 2]
+# ls = [1, 2]
 
-for v in range(2):
-    ls.insert(-1, ls[v])
+# for v in range(2):
+#     ls.insert(-1, ls[v])
 
-print(ls)
+# print(ls)
 
 z = 10
 y = 0
@@ -74,10 +74,10 @@ x = y < z and z > y or y > z and z < y
 
 # print(fun(fun(2)))
 
-nums = [1,2,3]
-vals = nums
-del vals[:]
-print(vals)
+# nums = [1,2,3]
+# vals = nums
+# del vals[:]
+# print(vals)
 
 # x = 3
 # y = 2
@@ -114,10 +114,10 @@ print(vals)
 # else:
 #     print('*') 
 
-tup = (1,2,4,8)
-tup = tup[-2:-1]
-tup = tup[-1]
-print(tup)
+# tup = (1,2,4,8)
+# tup = tup[-2:-1]
+# tup = tup[-1]
+# print(tup)
 
 # d = {'1':'0', '0':'1'}
 # for i in d.vals():
@@ -145,3 +145,103 @@ print(tup)
 #         return fun(x, y-1)
 
 # print(fun(0,3))
+
+# z = 2
+# y = 1
+
+# x = y < z or z > y and y > z or z < y
+# print(x)
+
+# str1 = 'abcdef'
+
+# def fun(s):
+#     del s[2]
+#     return s
+
+# print(fun(str1))
+
+# x,y,z = 3,2,1
+# z,y,x = x,y,z
+# print(x,y,z)
+
+# def func(x):
+#     return 1 if x % 2 != 0 else 2
+
+# print(func(func(1))) 
+
+# print(len((1, )))
+
+# d = { 1:0, 2:1, 3:2, 0:1 }
+# x = 0
+
+# for y in range(len(d)):
+#     x = d[x]
+
+# print(x)
+
+# y = input()
+# x = input()
+
+# print(x + y)
+
+# print("a","b","c", sep= "'")
+
+# v = 1 + 1 // 2 + 1 / 2 + 2  
+# print(v)
+
+# t = (1, ) 
+# t = t[0] + t[0]
+# print(t)
+
+# print(len([i for i in range(0, -2,)]))
+
+# def f(a,b,c=0):
+#     pass
+
+# print(f(0))
+
+# ls = [1,2,3,4]
+# ls = list(map(lambda x: 2 * x, 1))
+# print(ls)
+
+# i = 4
+
+# while i > 0:
+#     i -= 2
+#     print('*')
+#     if i == 2:
+#         break
+# else:
+#     print('*')
+
+# t = (1,2,3,4)
+# t = t[-2:-1]
+# t = t[-1]
+# print(t)
+
+# d = { }
+
+# d['2'] = [1,2]
+# d['1'] = [3,4]
+
+# for x in d.keys():
+#     print(d[x][1], end='')
+
+# def funct(d, k ,v):
+#     d[k]=v
+
+# dc = { }
+# print(funct(dc, '1', 'v'))
+
+# ls = [[c for c in range(r)] for r in range(3)]
+
+# for x in ls:
+#     if len(x) < 2:
+#         print('x')
+
+class A:
+    def __init__(self, name):
+        self.name = name
+
+a = A('class')
+print(a)

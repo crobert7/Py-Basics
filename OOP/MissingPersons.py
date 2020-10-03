@@ -94,7 +94,7 @@ class AnonymousPerson(Person):
 
 # This cause a runtime error, we can't delete methods
 # that are inherited from a base class
-# However wecan override them and change the way they work    
+# However we can override them and change the way they work    
 anonymousPerson = AnonymousPerson(faces.images[4], datetime.datetime(1994, 6, 6))
 print(str(anonymousPerson))
 
