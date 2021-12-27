@@ -24,5 +24,5 @@ def compareTriplets(a, b):
     return results.values()
 
 
-result =  compareTriplets([1,2,3], [2,2,4])
+result =  compareTriplets([1,4,3], [2,2,4])
 print(result)
